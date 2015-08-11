@@ -1,0 +1,85 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	padding: 20px;
+	color: #003F48;
+	background-color: #FFC386;
+}
+
+button {
+	margin-top: 20px;
+	padding: 5px 10px;
+	background-color: #55959F;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	display: block;
+	cursor: pointer;
+}
+
+	input {
+		width: 300px;
+		height: 20px;
+		font-size: 14px;
+		padding: 2px 5px;
+	}
+
+.loginBox {
+	display: inline-block;
+	background-color: #DE964F;
+	padding: 30px 30px;
+	margin-right: 20px;
+	color: #003F48;
+	vertical-align: top;
+}
+
+	.error {
+		color:#A02515;
+	}
+
+	.loginBox input {
+		width: 300px;
+		height: 20px;
+		font-size: 14px;
+		padding: 2px 5px;
+	}
+
+.messageBox {
+	padding:30px;
+	display: inline-block;
+	margin-left: 10%;
+	display: inline-block;
+	background-color: #DE964F;
+	margin-right: 20px;
+	color: #003F48;
+	vertical-align: top;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+	.messageBox input{
+		width: 600px;
+		height: 20px;
+		font-size: 14px;
+		padding: 2px 5px;
+	}
+
+.messageDisplay {
+	padding: 30px;
+	display: inline-block;
+	margin-left: 10%;
+	background-color: #DE964F;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+span {
+	color:#A02515;
+}
+
+.commentDisplay {
+	margin-left: 10%;
+}
+
