@@ -79,7 +79,6 @@ function register_user($connection, $post)
 		{
 			header('Location: login.php');
 		}
-
 	}
 }
 
