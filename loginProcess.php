@@ -118,6 +118,5 @@ function login_user($connection, $post)
 			header('Location: login.php');
 		}
 	}
-
 }
 ?>
